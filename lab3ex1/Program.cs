@@ -25,7 +25,7 @@ namespace lab3ex1
             Console.WriteLine("Introduceti un numar pentru a-i calcula suma cifrelor");
             int n = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Suma cifrelor este {digitSum(n)}");
+            Console.WriteLine($"Suma cifrelor numarului {n} este {digitSum(n)}");
         }
     }
 }
